@@ -849,11 +849,9 @@ async function getApplicantAnswers(applicantId) {
 
 function PageInterview({setTitle}){ 
   const [interviewList, setInterviewList] = useState([]); 
-
-
-  // const [activePage, setActivePage] = useState("interview-display"); 
+  const [activePage, setActivePage] = useState("interview-display"); 
   // const [activePage, setActivePage] = useState("applicant-create"); 
-  const [activePage, setActivePage] = useState("applicant-display"); 
+  // const [activePage, setActivePage] = useState("applicant-display"); 
 
 
   const [editingInterview, setEditingInterview] = useState(null); 
